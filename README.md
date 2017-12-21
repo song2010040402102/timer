@@ -1,2 +1,4 @@
 # timer
 不依赖窗口的单线程Timer
+
+CMyTimer类实现了不依赖窗口的多事件timer，多个timer事件均在一个线程中处理，重要的是使用方法和windows的WM_TIMER使用几乎一致
